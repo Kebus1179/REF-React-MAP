@@ -1,7 +1,7 @@
 import React from 'react';   
 import ReactDOM from 'react-dom';   
   
-function NameList(props) {  
+function App(props) {  
   const myLists = props.myLists;  
   const listItems = myLists.map((myList) =>  
     <li>{myList}</li>  
